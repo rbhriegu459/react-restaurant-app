@@ -9,8 +9,32 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .meal{
+    border-bottom: 1.5px solid rgb(194, 186, 186);
+    width: 89%;
+    padding: 15px;
+    margin-left: 20px;
+  }
+
+  .meal li{
+    margin: 7px;
+    font-size: 17px;
+}
+
+.mealDesc{
+      font-style: italic;
   }
   
+  .meal .mealPrice{
+    color: rgb(205, 30, 30);
+    font-weight: bold;
+  }
+
   @keyframes meals-appear {
     from {
       opacity: 0;
